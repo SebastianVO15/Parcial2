@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { PaisModule } from './pais/pais.module';
 
 @Component({
   selector: 'app-root',

@@ -3,7 +3,9 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import {ParcialModule} from './parcial/parcial.module';
+import {PaisModule} from './pais/pais.module';
+import { HttpClientModule } from '@angular/common/http';
+import { PaisComponent } from "./pais/pais.component";
 
 @NgModule({
   declarations: [
@@ -11,9 +13,9 @@ import {ParcialModule} from './parcial/parcial.module';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule, ParcialModule
-    
-  ],
+    AppRoutingModule,
+     PaisModule
+],
   providers: [],
   bootstrap: [AppComponent]
 })

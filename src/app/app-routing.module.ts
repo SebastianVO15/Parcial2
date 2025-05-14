@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { ParcialComponent } from './parcial/parcial.component';
+import { PaisComponent } from './pais/pais.component';
 
 
 
